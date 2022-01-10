@@ -1,10 +1,12 @@
 const express = require('express');
 const fs = require('fs');
-const path = require('path');
 const app = express();
+const path = require('path');
 const bayes = require('./src/handleEmotion');
 
-app.use(express.static(path.join(__dirname, '/src')));
+
+app.use(express.static(path.join(__dirname, '/public')));
+
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");

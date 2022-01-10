@@ -5,6 +5,7 @@ const btn_skip = document.querySelector('.btn_skip');
 const btn_back = document.querySelector('.btn_back');
 const questionText = document.querySelector('.question_text');
 const containerQuestion = document.querySelector('.container');
+const displayResult = document.querySelector('.display_result');
 
 const facialParts = {
   cheek: "Má",
@@ -15,6 +16,16 @@ const facialParts = {
   mouth: "Miệng",
   nose: "Mũi",
 };
+
+const emotionEnum = {
+  happy: "Vui vẻ",
+  surprise: "Bất ngờ",
+  sad: "Buồn bã",
+  disgust: "Ghê tởm",
+  angry: "Tức giận",
+  scare: "Sợ hãi",
+  emotionNormal: "Bình thường",
+}
 
 const textBtn = '<span>Tiếp tục</span><i class="far fa-arrow-right"></i>';
 
@@ -29,15 +40,15 @@ const run = async () => {
   const actionValue = Object.values(actions);
 
   btn_next.onclick = () => {
+    if (btn_next.classList.contains('disabled')) return;
     if (currentIndex + 1 >= actionKeys.length) {
       showResult(requestData, aus);
       return;
     };
-    currentIndex++;
+    if (currentIndex < actionKeys.length) currentIndex++;
     (currentIndex + 1 >= actionKeys.length) ? btn_next.textContent = 'Hoàn thành' : btn_next.innerHTML = textBtn;
 
 
-    if (btn_next.classList.contains('disabled')) return;
     render({ facialPart: actionKeys[currentIndex], actionAus: actionValue[currentIndex] });
   }
 
@@ -54,7 +65,7 @@ const run = async () => {
       return;
     };
     requestData[actionKeys[currentIndex]] = 'normal';
-    currentIndex++;
+    if (currentIndex < actionKeys.length) currentIndex++;
     (currentIndex + 1 >= actionKeys.length) ? btn_next.textContent = 'Hoàn thành' : btn_next.innerHTML = textBtn;
     render({ facialPart: actionKeys[currentIndex], actionAus: actionValue[currentIndex] });
   }
@@ -102,7 +113,7 @@ const run = async () => {
 }
 
 const showResult = async (requestData, aus) => {
-  containerQuestion.classList.add('hide')
+  containerQuestion.classList.add('hide');
   const resultHTML = [];
   for (const facialPart in requestData) {
     const auDescription = aus.find(i => i.au === requestData[facialPart]);
@@ -110,7 +121,7 @@ const showResult = async (requestData, aus) => {
     const { au, img: imgUrl, description } = auDescription;
     const elementHtml = `
       <li class="facial_part emotion_item">
-          <p>${facialParts[au]}</p>
+          <p style="font-size:20px; margin: 15px 0;">${facialParts[facialPart]}</p>
           <div>
               <img src="${imgUrl}" alt="img-aus"
                   class="emotion_item-img">
@@ -121,27 +132,44 @@ const showResult = async (requestData, aus) => {
     resultHTML.push(elementHtml);
   };
 
-  wrapper.innerHTML = `
+  displayResult.innerHTML = `
+  <div class="result">
     <h2>Trường hợp đã chọn</h2>
     <ul class="facial_parts emotion_items">${resultHTML.join('')}</ul> 
     <button class="btn btn_previous">Quay lại</button>
     <button class="btn btn_submit">Xem kết quả</button>
+  </div>
   `;
   const btnPrev = document.querySelector('.btn_previous');
-  const btnSubmit =document.querySelector('.btn_submit');
-  const wrapResult = document.querySelector('.result');
-  btnPrev.onclick = () =>{
+  const btnSubmit = document.querySelector('.btn_submit');
+
+  btnPrev.onclick = () => {
     containerQuestion.classList.remove('hide');
-    wrapResult.remove();
+    displayResult.innerHTML = '';
   }
+  
   btnSubmit.onclick = async () => {
     console.log(requestData)
     const response = await postData('http://localhost:4000/', requestData);
-    console.log(response);
-    // const result = document.createElement('div');
-    // result.textContent = response.data;
-    // wrapResult.appendChild(result);
+    const emotion = emotionEnum[response];
+    const emotionDescription = aus.find(i => i.au === response).img;
+    wrapper.innerHTML =
+    `
+    <div class="showResult">
+      <h2 style = "padding: 20px 0;">Kết quả sắc thái</h2>
+      <div class="result_img">
+          <img src="${emotionDescription}" alt="">
+      </div>
+      <h1 style = "line-height: 2;">${emotion}</h1>
+    <button class="btn btn_reset">Thử lại</button>
+    </div>
+    `;
+ 
+    const btnReset = document.querySelector('.btn_reset');
+    btnReset.onclick = () => {
+      window.location.reload();
+    }
   }
 }
-
 run();
+

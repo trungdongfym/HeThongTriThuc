@@ -46,8 +46,13 @@ img {
     background-color: #ec8944;
 }
 
-.btn_skip {
+.btn_skip, .btn_reset {
     background-color: #30cf00;
+}
+
+.btn_reset {
+    display: block;
+    margin: 20px auto;
 }
 
 .wrapper {
@@ -102,4 +107,17 @@ img {
 
 .facial_part {
     text-align: center;
+}
+
+/* Result */
+.result {
+    text-align: center;
+}
+.showResult {
+    text-align: center;
+}
+
+.result_img {
+    width: 400px;
+    margin: 0 auto;
 }

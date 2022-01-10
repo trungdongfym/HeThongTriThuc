@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 function getModel() {
-    const dataString = fs.readFileSync('./model.json', { encoding: 'utf8', flag: 'r' });
-    console.log(dataString);
+    
+    const dataString = fs.readFileSync(__dirname +'/model.json', { encoding: 'utf8', flag: 'r' });
     return JSON.parse(dataString);
 }
 
@@ -27,13 +27,13 @@ function bayes(dataset) {
     const probScare = calculateProb('scare', dataset, model);
     const probNormal = calculateProb('normal', dataset, model);
     const emotionEnum = {
+        'emotionNormal': probNormal,
         'happy': probHappy,
         'surprise': probSurprise,
         'sad': probSad,
         'disgust': probDisgust,
         'angry': probAngry,
         'scare': probScare,
-        'normal': probNormal
     };
 
     const arrValues = Object.values(emotionEnum);
