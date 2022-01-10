@@ -1,0 +1,152 @@
+[
+    {
+        "au": "AU1+2",
+        "img": "https://media.imotions.com/images/20190411123338/AU28-with-26.gif",
+        "description": "Chân mày cả trong lẫn ngoài đều hướng lên"
+    },
+    {
+        "au": "AU1",
+        "img": "https://media.imotions.com/images/20190411123338/AU28-with-26.gif",
+        "description": "Chân mày bên trong nhướng lên"
+    },
+    {
+        "au": "AU1+4",
+        "img": "https://media.imotions.com/images/20190411123338/AU28-with-26.gif",
+        "description": "Chân mày bên trong nâng lên, cả chân mày hạ thấp"
+    },
+    {
+        "au": "AU4",
+        "img": "https://media.imotions.com/images/20190411123338/AU28-with-26.gif",
+        "description": "Chân mày hạ xuống"
+    },
+    {
+        "au": "AU1+2+4",
+        "img": "https://media.imotions.com/images/20190411123338/AU28-with-26.gif",
+        "description": "Chân mày bên ngoài hướng lên, chân mày bên trong nhíu lại"
+    },
+    {
+        "au": "AU2",
+        "img": "https://media.imotions.com/images/20190411123338/AU28-with-26.gif",
+        "description": "Chân mày bên ngoài nhướng lên"
+    },
+    {
+        "au": "AU5",
+        "img": "",
+        "description": "Mí mắt trên nâng cao"
+    },
+    {
+        "au": "AU5+7",
+        "img": "",
+        "description": "Mí mắt nâng cao và khép hờ"
+    },
+    {
+        "au": "AU7",
+        "img": "",
+        "description": "Mí mắt khép hờ"
+    },
+    {
+        "au": "AU6",
+        "img": "",
+        "description": "Má nâng cao"
+    },
+    {
+        "au": "AU9",
+        "img": "",
+        "description": "Nhăn mũi"
+    },
+    {
+        "au": "AU12",
+        "img": "",
+        "description": "Khóe môi nhếch lên"
+    },
+    {
+        "au": "AU15",
+        "img": "",
+        "description": "Khóe môi hạ xuống"
+    },
+    {
+        "au": "AU10",
+        "img": "",
+        "description": "Môi trên nâng lên"
+    },
+    {
+        "au": "AU16",
+        "img": "",
+        "description": "Môi dưới hạ xuống"
+    },
+    {
+        "au": "AU10+16",
+        "img": "",
+        "description": "Môi trên nâng lên, môi dưới hạ xuống"
+    },
+    {
+        "au": "AU10+23",
+        "img": "",
+        "description": "Môi co lại và nâng lên"
+    },
+    {
+        "au": "AU23",
+        "img": "",
+        "description": "Môi co lại"
+    },
+    {
+        "au": "AU24",
+        "img": "",
+        "description": "Ép môi"
+    },
+    {
+        "au": "AU20",
+        "img": "",
+        "description": "Căng da môi"
+    },
+    {
+        "au": "AU17",
+        "img": "",
+        "description": "Cằm đẩy lên"
+    },
+    {
+        "au": "AU26",
+        "img": "",
+        "description": "Miệng há"
+    },
+    {
+        "au": "AU27",
+        "img": "",
+        "description": "Miệng mở rộng"
+    },
+    {
+        "au": "AU25",
+        "img": "",
+        "description": "Miệng mở một nửa"
+    },
+    {
+        "au": "happy",
+        "img": "",
+        "description": ""
+    },
+    {
+        "au": "surprise",
+        "img": "",
+        "description": ""
+    },
+    {
+        "au": "sad",
+        "img": "",
+        "description": ""
+    },
+    {
+        "au": "disgust",
+        "img": "",
+        "description": ""
+    },
+    {
+        "au": "angry",
+        "img": "",
+        "description": ""
+    },
+    {
+        "au": "scare",
+        "img": "",
+        "description": ""
+    }
+]

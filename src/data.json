@@ -1,0 +1,47 @@
+{
+    "eyebrow": [
+        "normal",
+        "AU1+2",
+        "AU1",
+        "AU1+4",
+        "AU4",
+        "AU1+2+4",
+        "AU2"
+    ],
+    "eyelid": [
+        "normal",
+        "AU5",
+        "AU5+7",
+        "AU7"
+    ],
+    "cheek": [
+        "AU6",
+        "normal"
+    ],
+    "nose": [
+        "normal",
+        "AU9"
+    ],
+    "lip": [
+        "AU12",
+        "normal",
+        "AU15",
+        "AU10",
+        "AU16",
+        "AU10+16",
+        "AU10+23",
+        "AU23",
+        "AU24",
+        "AU20"
+    ],
+    "jaw": [
+        "normal",
+        "AU17"
+    ],
+    "mouth": [
+        "normal",
+        "AU26",
+        "AU27",
+        "AU25"
+    ]
+}

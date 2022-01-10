@@ -1,0 +1,237 @@
+{
+    "eyebrow": {
+        "happy": {
+            "normal": 7,
+            "AU1": 3,
+            "AU1+2": 1,
+            "AU4": 1
+        },
+        "surprise": {
+            "AU1+2": 6,
+            "normal": 2,
+            "AU2": 1,
+            "AU1": 2
+        },
+        "sad": {
+            "AU1": 2,
+            "normal": 1,
+            "AU1+4": 3,
+            "AU4": 6
+        },
+        "disgust": {
+            "normal": 9,
+            "AU1+2": 1,
+            "AU4": 1,
+            "AU1": 1
+        },
+        "angry": {
+            "AU4": 9,
+            "normal": 1,
+            "AU1": 1
+        },
+        "scare": {
+            "AU1+2+4": 6,
+            "AU1+2": 4,
+            "normal": 5
+        },
+        "normal": {
+            "normal": 7
+        }
+    },
+    "eyelid": {
+        "happy": {
+            "normal": 7,
+            "AU7": 5
+        },
+        "surprise": {
+            "AU5": 9,
+            "normal": 2
+        },
+        "sad": {
+            "normal": 9,
+            "AU7": 3
+        },
+        "disgust": {
+            "normal": 11,
+            "AU5": 1
+        },
+        "angry": {
+            "AU5+7": 6,
+            "AU5": 3,
+            "AU7": 1,
+            "normal": 1
+        },
+        "scare": {
+            "normal": 2,
+            "AU5": 12,
+            "AU5+7": 1
+        },
+        "normal": {
+            "normal": 6,
+            "AU7": 1
+        }
+    },
+    "cheek": {
+        "happy": {
+            "AU6": 10,
+            "normal": 2
+        },
+        "surprise": {
+            "normal": 10,
+            "AU6": 1
+        },
+        "sad": {
+            "normal": 11,
+            "AU6": 1
+        },
+        "disgust": {
+            "normal": 12
+        },
+        "angry": {
+            "normal": 11
+        },
+        "scare": {
+            "normal": 15
+        },
+        "normal": {
+            "normal": 7
+        }
+    },
+    "nose": {
+        "happy": {
+            "normal": 12
+        },
+        "surprise": {
+            "normal": 10,
+            "AU9": 1
+        },
+        "sad": {
+            "normal": 12
+        },
+        "disgust": {
+            "AU9": 6,
+            "normal": 6
+        },
+        "angry": {
+            "normal": 11
+        },
+        "scare": {
+            "normal": 15
+        },
+        "normal": {
+            "normal": 7
+        }
+    },
+    "lip": {
+        "happy": {
+            "AU12": 7,
+            "AU23": 1,
+            "normal": 4
+        },
+        "surprise": {
+            "normal": 10,
+            "AU16": 1
+        },
+        "sad": {
+            "normal": 5,
+            "AU15": 5,
+            "AU20": 2
+        },
+        "disgust": {
+            "AU10": 4,
+            "normal": 2,
+            "AU16": 3,
+            "AU10+16": 2,
+            "AU20": 1
+        },
+        "angry": {
+            "AU10+23": 2,
+            "AU23": 3,
+            "AU24": 3,
+            "normal": 3
+        },
+        "scare": {
+            "normal": 6,
+            "AU20": 9
+        },
+        "normal": {
+            "normal": 3,
+            "AU16": 3,
+            "AU24": 1
+        }
+    },
+    "jaw": {
+        "happy": {
+            "normal": 11,
+            "AU17": 1
+        },
+        "surprise": {
+            "normal": 11
+        },
+        "sad": {
+            "normal": 11,
+            "AU17": 1
+        },
+        "disgust": {
+            "normal": 11,
+            "AU17": 1
+        },
+        "angry": {
+            "normal": 6,
+            "AU17": 5
+        },
+        "scare": {
+            "normal": 15
+        },
+        "normal": {
+            "normal": 7
+        }
+    },
+    "mouth": {
+        "happy": {
+            "normal": 8,
+            "AU27": 2,
+            "AU26": 1,
+            "AU25": 1
+        },
+        "surprise": {
+            "AU26": 4,
+            "AU27": 5,
+            "normal": 2
+        },
+        "sad": {
+            "normal": 12
+        },
+        "disgust": {
+            "normal": 7,
+            "AU25": 3,
+            "AU26": 2
+        },
+        "angry": {
+            "AU25": 1,
+            "AU26": 1,
+            "normal": 9
+        },
+        "scare": {
+            "normal": 4,
+            "AU25": 3,
+            "AU26": 4,
+            "AU27": 4
+        },
+        "normal": {
+            "normal": 3,
+            "AU26": 2,
+            "AU25": 2
+        }
+    },
+    "emotion": {
+        "happy": 12,
+        "surprise": 11,
+        "sad": 12,
+        "disgust": 12,
+        "angry": 11,
+        "scare": 15,
+        "normal": 7,
+        "total": 80
+    }
+}
