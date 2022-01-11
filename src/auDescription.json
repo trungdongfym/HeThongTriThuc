@@ -153,5 +153,10 @@
         "au": "emotionNormal",
         "img": "http://localhost:4000/binhthuong.png",
         "description": ""
+    },
+    {
+        "au": "undetermined",
+        "img": "http://localhost:4000/binhthuong.png",
+        "description": ""
     }
 ]

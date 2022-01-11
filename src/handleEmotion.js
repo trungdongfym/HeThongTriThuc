@@ -39,9 +39,11 @@ function bayes(dataset) {
     const arrValues = Object.values(emotionEnum);
     const arrKeys = Object.keys(emotionEnum);
     const max = Math.max(...arrValues);
-
-    const result = arrKeys.find(key => emotionEnum[key] === max);
+    
     console.log(emotionEnum);
+
+    if (max === 0) return "undetermined";
+    const result = arrKeys.find(key => emotionEnum[key] === max);
     return result;
 }
 

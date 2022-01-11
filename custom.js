@@ -25,6 +25,7 @@ const emotionEnum = {
   angry: "Tức giận",
   scare: "Sợ hãi",
   emotionNormal: "Bình thường",
+  undetermined: "Không xác định được sắc thái",
 }
 
 const textBtn = '<span>Tiếp tục</span><i class="far fa-arrow-right"></i>';
