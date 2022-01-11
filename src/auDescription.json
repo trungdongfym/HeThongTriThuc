@@ -2,122 +2,112 @@
     {
         "au": "AU1+2",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0020.jpg",
-        "description": "Chân mày cả trong lẫn ngoài đều hướng lên"
+        "description": "Chân mày cả trong lẫn ngoài đều hướng lên AU1+2"
     },
     {
         "au": "AU1",
         "img": "https://media.imotions.com/images/20190411123353/AU1-FACS.gif",
-        "description": "Chân mày bên trong nhướng lên"
+        "description": "Chân mày bên trong nhướng lên AU1"
     },
     {
         "au": "AU1+4",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0021.jpg",
-        "description": "Chân mày bên trong nâng lên, cả chân mày hạ thấp"
+        "description": "Chân mày bên trong nâng lên, cả chân mày hạ thấp AU1+4"
     },
     {
         "au": "AU4",
         "img": "https://media.imotions.com/images/20190411123352/AU4-brow-lowerer.gif",
-        "description": "Chân mày hạ xuống"
+        "description": "Chân mày hạ xuống AU4"
     },
     {
         "au": "AU1+2+4",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0023.jpg",
-        "description": "Chân mày bên ngoài hướng lên, chân mày bên trong nhíu lại"
+        "description": "Chân mày bên ngoài hướng lên, chân mày bên trong nhíu lại AU1+2+4"
     },
     {
         "au": "AU2",
         "img": "https://media.imotions.com/images/20190411123352/AU2-right-only.gif",
-        "description": "Chân mày bên ngoài nhướng lên"
+        "description": "Chân mày bên ngoài nhướng lên AU2"
     },
     {
         "au": "AU5",
         "img": "https://media.imotions.com/images/20190411123351/AU5.gif",
-        "description": "Mí mắt trên nâng cao"
+        "description": "Mí mắt trên nâng cao AU5"
     },
     {
         "au": "AU5+7",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0026.jpg",
-        "description": "Mí mắt nâng cao và khép hờ"
+        "description": "Mí mắt nâng cao và khép hờ AU5+7"
     },
     {
         "au": "AU7",
         "img": "https://media.imotions.com/images/20190411123350/AU7-lid-tightener.gif",
-        "description": "Mí mắt khép hờ"
+        "description": "Mí mắt khép hờ AU7"
     },
     {
         "au": "AU6",
         "img": "https://media.imotions.com/images/20190411123351/AU6-cheek-raiser.gif",
-        "description": "Má nâng cao"
+        "description": "Má nâng cao AU6"
     },
     {
         "au": "AU9",
         "img": "https://media.imotions.com/images/20190411123349/AU9-with-410.gif",
-        "description": "Nhăn mũi"
+        "description": "Nhăn mũi AU9"
     },
     {
         "au": "AU12",
         "img": "https://media.imotions.com/images/20190411123347/AU12.gif",
-        "description": "Khóe môi nhếch lên"
+        "description": "Khóe môi nhếch lên AU12"
     },
     {
         "au": "AU15",
         "img": "https://media.imotions.com/images/20190411123345/AU15.gif",
-        "description": "Khóe môi hạ xuống"
+        "description": "Khóe môi hạ xuống AU15"
     },
     {
         "au": "AU10",
         "img": "https://media.imotions.com/images/20190411123349/AU10-with-25.gif",
-        "description": "Môi trên nâng lên"
+        "description": "Môi trên nâng lên AU10"
     },
     {
         "au": "AU16",
         "img": "https://media.imotions.com/images/20190411123344/AU16-with-25.gif",
-        "description": "Môi dưới hạ xuống"
-    },
-    {
-        "au": "AU10+16",
-        "img": "",
-        "description": "Môi trên nâng lên, môi dưới hạ xuống"
-    },
-    {
-        "au": "AU10+23",
-        "img": "",
-        "description": "Môi co lại và nâng lên"
+        "description": "Môi dưới hạ xuống AU16"
     },
     {
         "au": "AU23",
         "img": "https://media.imotions.com/images/20190411123341/AU23-lip-tightener.gif",
-        "description": "Môi co lại"
+        "description": "Môi co lại AU23"
     },
     {
         "au": "AU24",
         "img": "https://media.imotions.com/images/20190411123340/AU24.gif",
-        "description": "Ép môi"
+        "description": "Ép môi AU24"
     },
     {
         "au": "AU20",
         "img": "https://media.imotions.com/images/20190411123343/AU20-lip-stretcher.gif",
-        "description": "Căng da môi"
+        "description": "Căng da môi AU20"
     },
     {
         "au": "AU17",
         "img": "https://media.imotions.com/images/20190411123344/AU17.gif",
-        "description": "Cằm đẩy lên"
+        "description": "Cằm đẩy lên AU17"
     },
     {
         "au": "AU26",
         "img": "https://media.imotions.com/images/20190411123339/AU26-with-25.gif",
-        "description": "Miệng há"
+        "description": "Miệng há AU26"
     },
     {
         "au": "AU27",
         "img": "https://media.imotions.com/images/20190411123338/AU27-mouth-stretcher.gif",
-        "description": "Miệng mở rộng"
+        "description": "Miệng mở rộng AU27"
     },
     {
         "au": "AU25",
         "img": "https://media.imotions.com/images/20190411123339/AU25-lips-part.gif",
-        "description": "Miệng mở một nửa"
+        "description": "Miệng mở một nửa AU25"
     },
     {
         "au": "happy",

@@ -2,7 +2,7 @@ const fs = require('fs');
 
 function getData() {
     let res = [];
-    let data = fs.readFileSync('Dataset_cstt.csv', { encoding: 'utf8', flag: 'r' });
+    let data = fs.readFileSync('Dataset_tt.csv', { encoding: 'utf8', flag: 'r' });
     let index = data.indexOf('\n');
     let remain = data;
     while (index > -1) {
@@ -63,6 +63,7 @@ function createData() {
 function trainModel() {
     const data = getData();
     fs.writeFileSync('model.json', JSON.stringify(statData(data), null, 4), { encoding: 'utf8', flag: 'w' });
+    // statData(data)
 }
 
 createData();

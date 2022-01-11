@@ -13,7 +13,7 @@
             "AU1": 2
         },
         "sad": {
-            "AU1": 2,
+            "AU1": 3,
             "normal": 1,
             "AU1+4": 3,
             "AU4": 6
@@ -25,7 +25,7 @@
             "AU1": 1
         },
         "angry": {
-            "AU4": 9,
+            "AU4": 10,
             "normal": 1,
             "AU1": 1
         },
@@ -49,7 +49,7 @@
         },
         "sad": {
             "normal": 9,
-            "AU7": 3
+            "AU7": 4
         },
         "disgust": {
             "normal": 11,
@@ -57,7 +57,7 @@
         },
         "angry": {
             "AU5+7": 6,
-            "AU5": 3,
+            "AU5": 4,
             "AU7": 1,
             "normal": 1
         },
@@ -81,14 +81,14 @@
             "AU6": 1
         },
         "sad": {
-            "normal": 11,
+            "normal": 12,
             "AU6": 1
         },
         "disgust": {
             "normal": 12
         },
         "angry": {
-            "normal": 11
+            "normal": 12
         },
         "scare": {
             "normal": 15
@@ -106,14 +106,15 @@
             "AU9": 1
         },
         "sad": {
-            "normal": 12
+            "normal": 13
         },
         "disgust": {
             "AU9": 6,
             "normal": 6
         },
         "angry": {
-            "normal": 11
+            "normal": 11,
+            "AU9": 1
         },
         "scare": {
             "normal": 15
@@ -135,20 +136,22 @@
         "sad": {
             "normal": 5,
             "AU15": 5,
-            "AU20": 2
+            "AU20": 2,
+            "AU24": 1
         },
         "disgust": {
-            "AU10": 4,
+            "AU10": 5,
             "normal": 2,
             "AU16": 3,
-            "AU10+16": 2,
+            "AU10+16": 1,
             "AU20": 1
         },
         "angry": {
             "AU10+23": 2,
             "AU23": 3,
             "AU24": 3,
-            "normal": 3
+            "normal": 3,
+            "AU10": 1
         },
         "scare": {
             "normal": 6,
@@ -170,14 +173,14 @@
         },
         "sad": {
             "normal": 11,
-            "AU17": 1
+            "AU17": 2
         },
         "disgust": {
             "normal": 11,
             "AU17": 1
         },
         "angry": {
-            "normal": 6,
+            "normal": 7,
             "AU17": 5
         },
         "scare": {
@@ -200,7 +203,8 @@
             "normal": 2
         },
         "sad": {
-            "normal": 12
+            "normal": 12,
+            "AU26": 1
         },
         "disgust": {
             "normal": 7,
@@ -210,7 +214,8 @@
         "angry": {
             "AU25": 1,
             "AU26": 1,
-            "normal": 9
+            "normal": 9,
+            "AU27": 1
         },
         "scare": {
             "normal": 4,
@@ -227,11 +232,11 @@
     "emotion": {
         "happy": 12,
         "surprise": 11,
-        "sad": 12,
+        "sad": 13,
         "disgust": 12,
-        "angry": 11,
+        "angry": 12,
         "scare": 15,
         "normal": 7,
-        "total": 80
+        "total": 82
     }
 }
