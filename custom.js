@@ -9,7 +9,7 @@ const displayResult = document.querySelector('.display_result');
 
 const facialParts = {
   cheek: "Má",
-  eyebrow: "Lông mày",
+  eyebrow: "Chân mày",
   eyelid: "Mí mắt",
   jaw: "Cằm",
   lip: "Môi",
@@ -134,11 +134,13 @@ const showResult = async (requestData, aus) => {
   };
 
   displayResult.innerHTML = `
-  <div class="result">
+  <div class="result" style = "padding-top: 20px">
     <h2>Trường hợp đã chọn</h2>
     <ul class="facial_parts emotion_items">${resultHTML.join('')}</ul> 
-    <button class="btn btn_previous">Quay lại</button>
-    <button class="btn btn_submit">Xem kết quả</button>
+    <div style="margin-top: 25px">
+      <button class="btn btn_previous">Quay lại</button>
+      <button class="btn btn_submit">Xem kết quả</button>
+    </div>
   </div>
   `;
   const btnPrev = document.querySelector('.btn_previous');
