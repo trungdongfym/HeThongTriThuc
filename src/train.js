@@ -7,7 +7,8 @@ function getData() {
     let index = data.indexOf('\n');
     let remain = data;
     while (index > -1) {
-        let tmp = remain.substring(0, index - 1);
+        let tmp = remain.substring(0, index);
+        console.log(tmp);
         res.push(tmp);
         remain = remain.substring(index + 1);
         index = remain.indexOf('\n');

@@ -19,13 +19,13 @@
             "AU4": 6
         },
         "disgust": {
-            "normal": 9,
+            "normal": 8,
             "AU1+2": 1,
             "AU4": 1,
             "AU1": 1
         },
         "angry": {
-            "AU4": 10,
+            "AU4": 8,
             "normal": 1,
             "AU1": 1
         },
@@ -52,11 +52,11 @@
             "AU7": 4
         },
         "disgust": {
-            "normal": 11,
+            "normal": 10,
             "AU5": 1
         },
         "angry": {
-            "AU5+7": 6,
+            "AU5+7": 4,
             "AU5": 4,
             "AU7": 1,
             "normal": 1
@@ -85,10 +85,10 @@
             "AU6": 1
         },
         "disgust": {
-            "normal": 12
+            "normal": 11
         },
         "angry": {
-            "normal": 12
+            "normal": 10
         },
         "scare": {
             "normal": 15
@@ -110,10 +110,10 @@
         },
         "disgust": {
             "AU9": 6,
-            "normal": 6
+            "normal": 5
         },
         "angry": {
-            "normal": 11,
+            "normal": 9,
             "AU9": 1
         },
         "scare": {
@@ -143,11 +143,9 @@
             "AU10": 5,
             "normal": 2,
             "AU16": 3,
-            "AU10+16": 1,
             "AU20": 1
         },
         "angry": {
-            "AU10+23": 2,
             "AU23": 3,
             "AU24": 3,
             "normal": 3,
@@ -176,12 +174,12 @@
             "AU17": 2
         },
         "disgust": {
-            "normal": 11,
+            "normal": 10,
             "AU17": 1
         },
         "angry": {
-            "normal": 7,
-            "AU17": 5
+            "AU17": 5,
+            "normal": 5
         },
         "scare": {
             "normal": 15
@@ -208,12 +206,10 @@
         },
         "disgust": {
             "normal": 7,
-            "AU25": 3,
+            "AU25": 2,
             "AU26": 2
         },
         "angry": {
-            "AU25": 1,
-            "AU26": 1,
             "normal": 9,
             "AU27": 1
         },
@@ -233,10 +229,10 @@
         "happy": 12,
         "surprise": 11,
         "sad": 13,
-        "disgust": 12,
-        "angry": 12,
+        "disgust": 11,
+        "angry": 10,
         "scare": 15,
         "normal": 7,
-        "total": 82
+        "total": 79
     }
 }

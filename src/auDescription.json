@@ -2,7 +2,7 @@
     {
         "au": "AU1+2",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0020.jpg",
-        "description": "Chân mày cả trong lẫn ngoài đều hướng lên"
+        "description": "Cả chân mày nhướng lên"
     },
     {
         "au": "AU1",
@@ -12,7 +12,7 @@
     {
         "au": "AU1+4",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0021.jpg",
-        "description": "Chân mày bên trong nâng lên, cả chân mày hạ thấp"
+        "description": "Chân mày bên trong nâng lên, chân mày bên ngoài hạ thấp"
     },
     {
         "au": "AU4",
@@ -23,11 +23,6 @@
         "au": "AU1+2+4",
         "img": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157835/bin/nihms-248393-t0023.jpg",
         "description": "Chân mày bên ngoài hướng lên, chân mày bên trong nhíu lại"
-    },
-    {
-        "au": "AU2",
-        "img": "https://media.imotions.com/images/20190411123352/AU2-right-only.gif",
-        "description": "Chân mày bên ngoài nhướng lên"
     },
     {
         "au": "AU5",
