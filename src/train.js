@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+//data separation then push to array
 function getData() {
     let res = [];
     let data = fs.readFileSync('Dataset_tt.csv', { encoding: 'utf8', flag: 'r' });
@@ -36,6 +37,7 @@ function statData(data) {
     return res;
 }
 
+//
 function createData() {
     const data = getData();
     const headers = data[0].split(',');
@@ -60,11 +62,11 @@ function createData() {
     fs.writeFileSync('data.json', JSON.stringify(handleData, null, 4), { encoding: 'utf8', flag: 'w' });
 }
 
-function trainModel() {
+function train() {
     const data = getData();
     fs.writeFileSync('model.json', JSON.stringify(statData(data), null, 4), { encoding: 'utf8', flag: 'w' });
+    createData();
     // statData(data)
 }
 
-createData();
-trainModel();
+train();

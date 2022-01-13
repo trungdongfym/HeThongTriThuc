@@ -28,8 +28,6 @@
         "AU15",
         "AU10",
         "AU16",
-        "AU10+16",
-        "AU10+23",
         "AU23",
         "AU24",
         "AU20"
@@ -43,5 +41,14 @@
         "AU26",
         "AU27",
         "AU25"
+    ],
+    "emotio": [
+        "happ",
+        "surpris",
+        "sa",
+        "disgus",
+        "angr",
+        "scar",
+        "norma"
     ]
 }
